@@ -1,5 +1,3 @@
-sqlcmd 
-
 USE [master]
 GO
 EXEC xp_instance_regwrite N'HKEY_LOCAL_MACHINE',
