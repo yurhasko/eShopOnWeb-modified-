@@ -30,5 +30,3 @@ use [Microsoft.eShopOnWeb.Identity]
 create user iuser from login iuser;
 use [Microsoft.eShopOnWeb.Identity]
 exec sp_addrolemember 'db_owner', iuser;
-
-exit
